@@ -1,0 +1,74 @@
+{
+  "dotnet-framework-4.8": {
+    "version": "4.8",
+    "description": ".NET Framework 4.8 Runtime",
+    "url": "https://download.visualstudio.microsoft.com/download/pr/9db2efc6-88d0-4422-8ae0-8a2d38efdd94/3f72fdd3662e61131f0a8e4ef1041cb9/ndp48-web.exe",
+    "silent_install_args": "/q /norestart",
+    "exec_path": null,
+    "uninstall_command": "MsiExec.exe /X{3F01D5F0-3AEA-3B94-BA03-3967E16A36A9} /qn"
+  },
+  "dotnet-desktop-runtime-6": {
+    "version": "6.0.30",
+    "description": ".NET 6 Desktop Runtime",
+    "url": "https://download.visualstudio.microsoft.com/download/pr/88a96c5e-748c-4e6c-ae02-98991d1d13da/4078b5972d5a87119dd97c18fd85b7cb/windowsdesktop-runtime-6.0.30-win-x64.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "dotnet-runtime-8": {
+    "version": "8.0.0",
+    "description": ".NET 8 Runtime",
+    "url": "https://download.visualstudio.microsoft.com/download/pr/19f77d83-b1a1-4917-a8a2-d90a6889b17f/0c7fa3f6a778d1e38db32c60c860ef8e/dotnet-runtime-8.0.0-win-x64.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "vc-redist-2015-2022": {
+    "version": "14.40.33810",
+    "description": "Microsoft Visual C++ 2015-2022 Redistributable (x64)",
+    "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": "MsiExec.exe /X{1EED7386-F52B-412D-9B6B-61AA455E31F3} /qn"
+  },
+  "vc-redist-2013": {
+    "version": "12.0.40664",
+    "description": "Microsoft Visual C++ 2013 Redistributable (x64)",
+    "url": "https://download.microsoft.com/download/5/1/0/510C7E55-8826-4A1E-BD88-1F160221F7A4/vcredist_x64.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "vc-redist-2010": {
+    "version": "10.0.40219",
+    "description": "Microsoft Visual C++ 2010 Redistributable (x64)",
+    "url": "https://download.microsoft.com/download/1/1/7/1170c01e-579a-4642-8825-c7cd20f8685c/vcredist_x64.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "directx-runtime": {
+    "version": "9.29.1974",
+    "description": "DirectX End-User Runtime",
+    "url": "https://download.microsoft.com/download/1/1/0/110F40D4-FD1B-4EF2-9B99-2482A4ED6C1C/directx_Jun2010_redist.exe",
+    "silent_install_args": "/Q /T:%TEMP%\\DXSETUP",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "webview2-runtime": {
+    "version": "latest",
+    "description": "Microsoft Edge WebView2 Runtime",
+    "url": "https://go.microsoft.com/fwlink/p/?LinkId=2124703",
+    "silent_install_args": "/silent /install",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "powershell-7": {
+    "version": "7.4.0",
+    "description": "PowerShell 7",
+    "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.0/PowerShell-7.4.0-win-x64.msi",
+    "silent_install_args": "/quiet",
+    "exec_path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "uninstall_command": "msiexec /x {E54BBFAC-8A16-401C-A63E-A9E9899C1E3E} /quiet"
+  }
+}
