@@ -55,6 +55,63 @@
     "exec_path": null,
     "uninstall_command": ""
   },
+  {
+  "dotnet-framework-3.5": {
+    "version": "3.5",
+    "description": ".NET Framework 3.5 (incluye 2.0 y 3.0)",
+    "url": "https://download.microsoft.com/download/1/1/E/11E9F66B-6E64-41C4-B7E3-25A10DDC42CB/dotnetfx35.exe",
+    "silent_install_args": "/q /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "vc-redist-2015-2022-x86": {
+    "version": "14.40.33810",
+    "description": "Microsoft Visual C++ 2015-2022 Redistributable (x86)",
+    "url": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "vc-redist-2013-x86": {
+    "version": "12.0.40664",
+    "description": "Microsoft Visual C++ 2013 Redistributable (x86)",
+    "url": "https://download.microsoft.com/download/9/3/F/93F8EF9D-84AC-4202-8E57-F5AC395136D3/vcredist_x86.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "vc-redist-2010-x86": {
+    "version": "10.0.40219",
+    "description": "Microsoft Visual C++ 2010 Redistributable (x86)",
+    "url": "https://download.microsoft.com/download/1/1/7/1170c01e-579a-4642-8825-c7cd20f8685c/vcredist_x86.exe",
+    "silent_install_args": "/quiet /norestart",
+    "exec_path": null,
+    "uninstall_command": ""
+  },
+  "java-runtime": {
+    "version": "8u411",
+    "description": "Java Runtime Environment 8",
+    "url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=250245_42970487e3af4f5aa5bca3f542482c60",
+    "silent_install_args": "/s",
+    "exec_path": "C:\\Program Files\\Java\\jre1.8.0_411\\bin\\java.exe",
+    "uninstall_command": "MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F86418041F0}"
+  },
+  "xna-framework": {
+    "version": "4.0",
+    "description": "Microsoft XNA Framework Redistributable 4.0",
+    "url": "https://download.microsoft.com/download/1/7/6/176215c4-5230-4c34-8c76-87c3d4e4f2d3/XNA40Redist.msi",
+    "silent_install_args": "/quiet",
+    "exec_path": null,
+    "uninstall_command": "msiexec /x {C471D75A-4A50-4D8B-834E-0B7A6C86AC8B} /quiet"
+  },
+  "physx": {
+    "version": "9.19.0218",
+    "description": "NVIDIA PhysX System Software",
+    "url": "https://us.download.nvidia.com/Windows/9.19.0218/PhysX-9.19.0218-SystemSoftware.msi",
+    "silent_install_args": "/quiet",
+    "exec_path": null,
+    "uninstall_command": "msiexec /x {5B3180E2-CF82-451C-B16B-EFCBB4604450} /quiet"
+  },
   "webview2-runtime": {
     "version": "latest",
     "description": "Microsoft Edge WebView2 Runtime",
